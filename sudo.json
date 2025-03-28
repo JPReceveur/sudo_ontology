@@ -18,6 +18,2006 @@
       "version" : "http://purl.obolibrary.org/obo/sudo/releases/2025-03-28/sudo.json"
     },
     "nodes" : [ {
+      "id" : "http://foo#000001",
+      "lbl" : "substance use phenotype",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "An observable state that is characterizing the use, or lack thereof, of a chemical compound with psychoactive properties."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000002",
+      "lbl" : "substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which a substance is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000003",
+      "lbl" : "no known substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use phenotype in which there is no knowledge or evidence for any use of a substance."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000004",
+      "lbl" : "no known substance use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use phenotype in which there is no knowledge or evidence for a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000005",
+      "lbl" : "no known active substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use phenotype in which there has been substance use in the past, but there is no evidence or knowledge of any current substance use."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000006",
+      "lbl" : "non-repetitive binge substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use characterized by isolated or sporadic use of significant quantities of a substance in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000007",
+      "lbl" : "recreational substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use characterized by occasional limited use of a substance, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000008",
+      "lbl" : "chronic substance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of substance use in which the use of the substance is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000009",
+      "lbl" : "alcohol use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which alcohol is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000010",
+      "lbl" : "non-repetitive binge alcohol use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of alcohol use characterized by isolated or sporadic use of significant quantities of alcohol in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000011",
+      "lbl" : "recreational alcohol use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of alcohol use characterized by occasional limited use of alcohol, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000012",
+      "lbl" : "chronic alcohol use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of alcohol use in which the use of alcohol is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000013",
+      "lbl" : "alcohol use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic alcohol use where there is continued use of alcohol despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000014",
+      "lbl" : "alcohol abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of alcohol use in which the amounts or methods of use of alcohol are harmful or problematic to the individual or others (also called alcohol misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000015",
+      "lbl" : "DSM_IV-defined subsyndromic alcohol abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000016",
+      "lbl" : "DSM_IV-defined syndromic alcohol abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of alcohol use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent alcohol use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent alcohol use in situations in which it is physically hazardous; 3) Recurrent alcohol-related legal problems; 4) Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000017",
+      "lbl" : "alcohol dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of alcohol use in which the use of alcohol is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000018",
+      "lbl" : "DSM_IV-defined subsyndromic alcohol dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of alcohol use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of alcohol to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of alcohol; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for alcohol. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) alcohol is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control alcohol use; 5) A great deal of time is spent in activities necessary to obtain alcohol, use alcohol or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of alcohol use; 7) alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000019",
+      "lbl" : "DSM_IV-defined syndromic alcohol dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of alcohol use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of alcohol to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of alcohol; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for alcohol. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) alcohol is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control alcohol use; 5) A great deal of time is spent in activities necessary to obtain alcohol, use alcohol or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of alcohol use; 7) alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000020",
+      "lbl" : "DSM_V-defined mild alcohol use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) alcohol is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control alcohol use; 3) A great deal of time is spent in activities necessary to obtain alcohol, use alcohol, or recover from its effects; 4) Craving, or a strong desire or urge to use alcohol; 5) Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol; 7) Important social, occupational, or recreational activities are given up or reduced because of alcohol use; 8) Recurrent alcohol use in situations in which it is physically hazardous; 9) alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of alcohol to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of alcohol; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for alcohol. b. alcohol (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000021",
+      "lbl" : "DSM_V-defined moderate alcohol use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) alcohol is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control alcohol use; 3) A great deal of time is spent in activities necessary to obtain alcohol, use alcohol, or recover from its effects; 4) Craving, or a strong desire or urge to use alcohol; 5) Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol; 7) Important social, occupational, or recreational activities are given up or reduced because of alcohol use; 8) Recurrent alcohol use in situations in which it is physically hazardous; 9) alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of alcohol to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of alcohol; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for alcohol. b. alcohol (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000022",
+      "lbl" : "DSM_V-defined severe alcohol use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of alcohol use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) alcohol is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control alcohol use; 3) A great deal of time is spent in activities necessary to obtain alcohol, use alcohol, or recover from its effects; 4) Craving, or a strong desire or urge to use alcohol; 5) Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol; 7) Important social, occupational, or recreational activities are given up or reduced because of alcohol use; 8) Recurrent alcohol use in situations in which it is physically hazardous; 9) alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of alcohol to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of alcohol; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for alcohol. b. alcohol (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000023",
+      "lbl" : "cannabis use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which cannabis is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000024",
+      "lbl" : "non-repetitive binge cannabis use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cannabis use characterized by isolated or sporadic use of significant quantities of cannabis in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000025",
+      "lbl" : "recreational cannabis use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cannabis use characterized by occasional limited use of cannabis, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000026",
+      "lbl" : "chronic cannabis use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cannabis use in which the use of cannabis is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000027",
+      "lbl" : "cannabis use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic cannabis use where there is continued use of cannabis despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000028",
+      "lbl" : "cannabis abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cannabis use in which the amounts or methods of use of cannabis are harmful or problematic to the individual or others (also called cannabis misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000029",
+      "lbl" : "DSM_IV-defined subsyndromic cannabis abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000030",
+      "lbl" : "DSM_IV-defined syndromic cannabis abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of cannabis use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent cannabis use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent cannabis use in situations in which it is physically hazardous; 3) Recurrent cannabis-related legal problems; 4) Continued cannabis use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cannabis."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000031",
+      "lbl" : "cannabis dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cannabis use in which the use of cannabis is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000032",
+      "lbl" : "DSM_IV-defined subsyndromic cannabis dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of cannabis use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of cannabis to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of cannabis; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cannabis. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) cannabis is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control cannabis use; 5) A great deal of time is spent in activities necessary to obtain cannabis, use cannabis or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of cannabis use; 7) cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cannabis."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000033",
+      "lbl" : "DSM_IV-defined syndromic cannabis dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of cannabis use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of cannabis to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of cannabis; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cannabis. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) cannabis is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control cannabis use; 5) A great deal of time is spent in activities necessary to obtain cannabis, use cannabis or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of cannabis use; 7) cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cannabis."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000034",
+      "lbl" : "DSM_V-defined mild cannabis use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cannabis use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) cannabis is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cannabis use; 3) A great deal of time is spent in activities necessary to obtain cannabis, use cannabis, or recover from its effects; 4) Craving, or a strong desire or urge to use cannabis; 5) Recurrent cannabis use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cannabis use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cannabis; 7) Important social, occupational, or recreational activities are given up or reduced because of cannabis use; 8) Recurrent cannabis use in situations in which it is physically hazardous; 9) cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cannabis; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cannabis to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cannabis; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cannabis. b. cannabis (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000035",
+      "lbl" : "DSM_V-defined moderate cannabis use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cannabis use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) cannabis is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cannabis use; 3) A great deal of time is spent in activities necessary to obtain cannabis, use cannabis, or recover from its effects; 4) Craving, or a strong desire or urge to use cannabis; 5) Recurrent cannabis use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cannabis use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cannabis; 7) Important social, occupational, or recreational activities are given up or reduced because of cannabis use; 8) Recurrent cannabis use in situations in which it is physically hazardous; 9) cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cannabis; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cannabis to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cannabis; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cannabis. b. cannabis (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000036",
+      "lbl" : "DSM_V-defined severe cannabis use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cannabis use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) cannabis is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cannabis use; 3) A great deal of time is spent in activities necessary to obtain cannabis, use cannabis, or recover from its effects; 4) Craving, or a strong desire or urge to use cannabis; 5) Recurrent cannabis use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cannabis use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cannabis; 7) Important social, occupational, or recreational activities are given up or reduced because of cannabis use; 8) Recurrent cannabis use in situations in which it is physically hazardous; 9) cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cannabis; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cannabis to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cannabis; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cannabis. b. cannabis (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000037",
+      "lbl" : "hallucinogen use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which hallucinogen is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000038",
+      "lbl" : "non-repetitive binge hallucinogen use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of hallucinogen use characterized by isolated or sporadic use of significant quantities of hallucinogen in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000039",
+      "lbl" : "recreational hallucinogen use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of hallucinogen use characterized by occasional limited use of hallucinogen, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000040",
+      "lbl" : "chronic hallucinogen use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of hallucinogen use in which the use of hallucinogen is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000041",
+      "lbl" : "hallucinogen use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic hallucinogen use where there is continued use of hallucinogen despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000042",
+      "lbl" : "hallucinogen abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of hallucinogen use in which the amounts or methods of use of hallucinogen are harmful or problematic to the individual or others (also called hallucinogen misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000043",
+      "lbl" : "DSM_IV-defined subsyndromic hallucinogen abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000044",
+      "lbl" : "DSM_IV-defined syndromic hallucinogen abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of hallucinogen use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent hallucinogen use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent hallucinogen use in situations in which it is physically hazardous; 3) Recurrent hallucinogen-related legal problems; 4) Continued hallucinogen use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of hallucinogen."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000045",
+      "lbl" : "hallucinogen dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of hallucinogen use in which the use of hallucinogen is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000046",
+      "lbl" : "DSM_IV-defined subsyndromic hallucinogen dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of hallucinogen use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of hallucinogen to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of hallucinogen; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for hallucinogen. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) hallucinogen is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control hallucinogen use; 5) A great deal of time is spent in activities necessary to obtain hallucinogen, use hallucinogen or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of hallucinogen use; 7) hallucinogen use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by hallucinogen."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000047",
+      "lbl" : "DSM_IV-defined syndromic hallucinogen dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of hallucinogen use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of hallucinogen to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of hallucinogen; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for hallucinogen. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) hallucinogen is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control hallucinogen use; 5) A great deal of time is spent in activities necessary to obtain hallucinogen, use hallucinogen or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of hallucinogen use; 7) hallucinogen use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by hallucinogen."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000048",
+      "lbl" : "DSM_V-defined mild hallucinogen use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of hallucinogen use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) hallucinogen is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control hallucinogen use; 3) A great deal of time is spent in activities necessary to obtain hallucinogen, use hallucinogen, or recover from its effects; 4) Craving, or a strong desire or urge to use hallucinogen; 5) Recurrent hallucinogen use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued hallucinogen use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of hallucinogen; 7) Important social, occupational, or recreational activities are given up or reduced because of hallucinogen use; 8) Recurrent hallucinogen use in situations in which it is physically hazardous; 9) hallucinogen use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by hallucinogen; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of hallucinogen to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of hallucinogen; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for hallucinogen. b. hallucinogen (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000049",
+      "lbl" : "DSM_V-defined moderate hallucinogen use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of hallucinogen use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) hallucinogen is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control hallucinogen use; 3) A great deal of time is spent in activities necessary to obtain hallucinogen, use hallucinogen, or recover from its effects; 4) Craving, or a strong desire or urge to use hallucinogen; 5) Recurrent hallucinogen use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued hallucinogen use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of hallucinogen; 7) Important social, occupational, or recreational activities are given up or reduced because of hallucinogen use; 8) Recurrent hallucinogen use in situations in which it is physically hazardous; 9) hallucinogen use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by hallucinogen; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of hallucinogen to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of hallucinogen; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for hallucinogen. b. hallucinogen (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000050",
+      "lbl" : "DSM_V-defined severe hallucinogen use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of hallucinogen use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) hallucinogen is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control hallucinogen use; 3) A great deal of time is spent in activities necessary to obtain hallucinogen, use hallucinogen, or recover from its effects; 4) Craving, or a strong desire or urge to use hallucinogen; 5) Recurrent hallucinogen use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued hallucinogen use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of hallucinogen; 7) Important social, occupational, or recreational activities are given up or reduced because of hallucinogen use; 8) Recurrent hallucinogen use in situations in which it is physically hazardous; 9) hallucinogen use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by hallucinogen; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of hallucinogen to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of hallucinogen; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for hallucinogen. b. hallucinogen (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000051",
+      "lbl" : "nicotine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which nicotine is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000052",
+      "lbl" : "non-repetitive binge nicotine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of nicotine use characterized by isolated or sporadic use of significant quantities of nicotine in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000053",
+      "lbl" : "recreational nicotine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of nicotine use characterized by occasional limited use of nicotine, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000054",
+      "lbl" : "chronic nicotine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of nicotine use in which the use of nicotine is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000055",
+      "lbl" : "nicotine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic nicotine use where there is continued use of nicotine despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000056",
+      "lbl" : "nicotine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of nicotine use in which the amounts or methods of use of nicotine are harmful or problematic to the individual or others (also called nicotine misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000057",
+      "lbl" : "DSM_IV-defined subsyndromic nicotine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000058",
+      "lbl" : "DSM_IV-defined syndromic nicotine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of nicotine use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent nicotine use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent nicotine use in situations in which it is physically hazardous; 3) Recurrent nicotine-related legal problems; 4) Continued nicotine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of nicotine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000059",
+      "lbl" : "nicotine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of nicotine use in which the use of nicotine is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000060",
+      "lbl" : "DSM_IV-defined subsyndromic nicotine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of nicotine use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of nicotine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of nicotine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for nicotine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) nicotine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control nicotine use; 5) A great deal of time is spent in activities necessary to obtain nicotine, use nicotine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of nicotine use; 7) nicotine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by nicotine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000061",
+      "lbl" : "DSM_IV-defined syndromic nicotine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of nicotine use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of nicotine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of nicotine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for nicotine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) nicotine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control nicotine use; 5) A great deal of time is spent in activities necessary to obtain nicotine, use nicotine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of nicotine use; 7) nicotine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by nicotine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000062",
+      "lbl" : "DSM_V-defined mild nicotine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of nicotine use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) nicotine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control nicotine use; 3) A great deal of time is spent in activities necessary to obtain nicotine, use nicotine, or recover from its effects; 4) Craving, or a strong desire or urge to use nicotine; 5) Recurrent nicotine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued nicotine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of nicotine; 7) Important social, occupational, or recreational activities are given up or reduced because of nicotine use; 8) Recurrent nicotine use in situations in which it is physically hazardous; 9) nicotine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by nicotine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of nicotine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of nicotine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for nicotine. b. nicotine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000063",
+      "lbl" : "DSM_V-defined moderate nicotine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of nicotine use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) nicotine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control nicotine use; 3) A great deal of time is spent in activities necessary to obtain nicotine, use nicotine, or recover from its effects; 4) Craving, or a strong desire or urge to use nicotine; 5) Recurrent nicotine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued nicotine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of nicotine; 7) Important social, occupational, or recreational activities are given up or reduced because of nicotine use; 8) Recurrent nicotine use in situations in which it is physically hazardous; 9) nicotine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by nicotine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of nicotine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of nicotine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for nicotine. b. nicotine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000064",
+      "lbl" : "DSM_V-defined severe nicotine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of nicotine use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) nicotine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control nicotine use; 3) A great deal of time is spent in activities necessary to obtain nicotine, use nicotine, or recover from its effects; 4) Craving, or a strong desire or urge to use nicotine; 5) Recurrent nicotine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued nicotine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of nicotine; 7) Important social, occupational, or recreational activities are given up or reduced because of nicotine use; 8) Recurrent nicotine use in situations in which it is physically hazardous; 9) nicotine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by nicotine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of nicotine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of nicotine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for nicotine. b. nicotine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000065",
+      "lbl" : "opioid use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which opioid is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000066",
+      "lbl" : "non-repetitive binge opioid use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of opioid use characterized by isolated or sporadic use of significant quantities of opioid in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000067",
+      "lbl" : "recreational opioid use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of opioid use characterized by occasional limited use of opioid, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000068",
+      "lbl" : "chronic opioid use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of opioid use in which the use of opioid is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000069",
+      "lbl" : "opioid use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic opioid use where there is continued use of opioid despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000070",
+      "lbl" : "opioid abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of opioid use in which the amounts or methods of use of opioid are harmful or problematic to the individual or others (also called opioid misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000071",
+      "lbl" : "DSM_IV-defined subsyndromic opioid abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000072",
+      "lbl" : "DSM_IV-defined syndromic opioid abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of opioid use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent opioid use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent opioid use in situations in which it is physically hazardous; 3) Recurrent opioid-related legal problems; 4) Continued opioid use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of opioid."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000073",
+      "lbl" : "opioid dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of opioid use in which the use of opioid is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000074",
+      "lbl" : "DSM_IV-defined subsyndromic opioid dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of opioid use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of opioid to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of opioid; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for opioid. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) opioid is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control opioid use; 5) A great deal of time is spent in activities necessary to obtain opioid, use opioid or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of opioid use; 7) opioid use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by opioid."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000075",
+      "lbl" : "DSM_IV-defined syndromic opioid dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of opioid use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of opioid to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of opioid; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for opioid. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) opioid is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control opioid use; 5) A great deal of time is spent in activities necessary to obtain opioid, use opioid or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of opioid use; 7) opioid use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by opioid."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000076",
+      "lbl" : "DSM_V-defined mild opioid use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of opioid use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) opioid is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control opioid use; 3) A great deal of time is spent in activities necessary to obtain opioid, use opioid, or recover from its effects; 4) Craving, or a strong desire or urge to use opioid; 5) Recurrent opioid use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued opioid use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of opioid; 7) Important social, occupational, or recreational activities are given up or reduced because of opioid use; 8) Recurrent opioid use in situations in which it is physically hazardous; 9) opioid use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by opioid; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of opioid to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of opioid; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for opioid. b. opioid (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000077",
+      "lbl" : "DSM_V-defined moderate opioid use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of opioid use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) opioid is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control opioid use; 3) A great deal of time is spent in activities necessary to obtain opioid, use opioid, or recover from its effects; 4) Craving, or a strong desire or urge to use opioid; 5) Recurrent opioid use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued opioid use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of opioid; 7) Important social, occupational, or recreational activities are given up or reduced because of opioid use; 8) Recurrent opioid use in situations in which it is physically hazardous; 9) opioid use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by opioid; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of opioid to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of opioid; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for opioid. b. opioid (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000078",
+      "lbl" : "DSM_V-defined severe opioid use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of opioid use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) opioid is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control opioid use; 3) A great deal of time is spent in activities necessary to obtain opioid, use opioid, or recover from its effects; 4) Craving, or a strong desire or urge to use opioid; 5) Recurrent opioid use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued opioid use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of opioid; 7) Important social, occupational, or recreational activities are given up or reduced because of opioid use; 8) Recurrent opioid use in situations in which it is physically hazardous; 9) opioid use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by opioid; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of opioid to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of opioid; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for opioid. b. opioid (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000079",
+      "lbl" : "polysubstance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which polysubstance is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000080",
+      "lbl" : "non-repetitive binge polysubstance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of polysubstance use characterized by isolated or sporadic use of significant quantities of polysubstance in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000081",
+      "lbl" : "recreational polysubstance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of polysubstance use characterized by occasional limited use of polysubstance, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000082",
+      "lbl" : "chronic polysubstance use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of polysubstance use in which the use of polysubstance is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000083",
+      "lbl" : "polysubstance use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic polysubstance use where there is continued use of polysubstance despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000084",
+      "lbl" : "polysubstance abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of polysubstance use in which the amounts or methods of use of polysubstance are harmful or problematic to the individual or others (also called polysubstance misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000085",
+      "lbl" : "DSM_IV-defined subsyndromic polysubstance abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000086",
+      "lbl" : "DSM_IV-defined syndromic polysubstance abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of polysubstance use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent polysubstance use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent polysubstance use in situations in which it is physically hazardous; 3) Recurrent polysubstance-related legal problems; 4) Continued polysubstance use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of polysubstance."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000087",
+      "lbl" : "polysubstance dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of polysubstance use in which the use of polysubstance is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000088",
+      "lbl" : "DSM_IV-defined subsyndromic polysubstance dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of polysubstance use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of polysubstance to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of polysubstance; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for polysubstance. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) polysubstance is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control polysubstance use; 5) A great deal of time is spent in activities necessary to obtain polysubstance, use polysubstance or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of polysubstance use; 7) polysubstance use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by polysubstance."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000089",
+      "lbl" : "DSM_IV-defined syndromic polysubstance dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of polysubstance use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of polysubstance to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of polysubstance; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for polysubstance. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) polysubstance is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control polysubstance use; 5) A great deal of time is spent in activities necessary to obtain polysubstance, use polysubstance or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of polysubstance use; 7) polysubstance use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by polysubstance."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000090",
+      "lbl" : "DSM_V-defined mild polysubstance use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of polysubstance use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) polysubstance is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control polysubstance use; 3) A great deal of time is spent in activities necessary to obtain polysubstance, use polysubstance, or recover from its effects; 4) Craving, or a strong desire or urge to use polysubstance; 5) Recurrent polysubstance use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued polysubstance use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of polysubstance; 7) Important social, occupational, or recreational activities are given up or reduced because of polysubstance use; 8) Recurrent polysubstance use in situations in which it is physically hazardous; 9) polysubstance use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by polysubstance; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of polysubstance to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of polysubstance; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for polysubstance. b. polysubstance (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000091",
+      "lbl" : "DSM_V-defined moderate polysubstance use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of polysubstance use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) polysubstance is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control polysubstance use; 3) A great deal of time is spent in activities necessary to obtain polysubstance, use polysubstance, or recover from its effects; 4) Craving, or a strong desire or urge to use polysubstance; 5) Recurrent polysubstance use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued polysubstance use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of polysubstance; 7) Important social, occupational, or recreational activities are given up or reduced because of polysubstance use; 8) Recurrent polysubstance use in situations in which it is physically hazardous; 9) polysubstance use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by polysubstance; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of polysubstance to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of polysubstance; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for polysubstance. b. polysubstance (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000092",
+      "lbl" : "DSM_V-defined severe polysubstance use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of polysubstance use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) polysubstance is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control polysubstance use; 3) A great deal of time is spent in activities necessary to obtain polysubstance, use polysubstance, or recover from its effects; 4) Craving, or a strong desire or urge to use polysubstance; 5) Recurrent polysubstance use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued polysubstance use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of polysubstance; 7) Important social, occupational, or recreational activities are given up or reduced because of polysubstance use; 8) Recurrent polysubstance use in situations in which it is physically hazardous; 9) polysubstance use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by polysubstance; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of polysubstance to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of polysubstance; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for polysubstance. b. polysubstance (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000093",
+      "lbl" : "sedative use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which sedative is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000094",
+      "lbl" : "non-repetitive binge sedative use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of sedative use characterized by isolated or sporadic use of significant quantities of sedative in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000095",
+      "lbl" : "recreational sedative use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of sedative use characterized by occasional limited use of sedative, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000096",
+      "lbl" : "chronic sedative use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of sedative use in which the use of sedative is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000097",
+      "lbl" : "sedative use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic sedative use where there is continued use of sedative despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000098",
+      "lbl" : "sedative abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of sedative use in which the amounts or methods of use of sedative are harmful or problematic to the individual or others (also called sedative misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000099",
+      "lbl" : "DSM_IV-defined subsyndromic sedative abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000100",
+      "lbl" : "DSM_IV-defined syndromic sedative abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of sedative use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent sedative use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent sedative use in situations in which it is physically hazardous; 3) Recurrent sedative-related legal problems; 4) Continued sedative use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of sedative."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000101",
+      "lbl" : "sedative dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of sedative use in which the use of sedative is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000102",
+      "lbl" : "DSM_IV-defined subsyndromic sedative dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of sedative use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of sedative to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of sedative; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for sedative. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) sedative is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control sedative use; 5) A great deal of time is spent in activities necessary to obtain sedative, use sedative or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of sedative use; 7) sedative use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by sedative."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000103",
+      "lbl" : "DSM_IV-defined syndromic sedative dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of sedative use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of sedative to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of sedative; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for sedative. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) sedative is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control sedative use; 5) A great deal of time is spent in activities necessary to obtain sedative, use sedative or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of sedative use; 7) sedative use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by sedative."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000104",
+      "lbl" : "DSM_V-defined mild sedative use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of sedative use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) sedative is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control sedative use; 3) A great deal of time is spent in activities necessary to obtain sedative, use sedative, or recover from its effects; 4) Craving, or a strong desire or urge to use sedative; 5) Recurrent sedative use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued sedative use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of sedative; 7) Important social, occupational, or recreational activities are given up or reduced because of sedative use; 8) Recurrent sedative use in situations in which it is physically hazardous; 9) sedative use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by sedative; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of sedative to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of sedative; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for sedative. b. sedative (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000105",
+      "lbl" : "DSM_V-defined moderate sedative use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of sedative use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) sedative is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control sedative use; 3) A great deal of time is spent in activities necessary to obtain sedative, use sedative, or recover from its effects; 4) Craving, or a strong desire or urge to use sedative; 5) Recurrent sedative use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued sedative use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of sedative; 7) Important social, occupational, or recreational activities are given up or reduced because of sedative use; 8) Recurrent sedative use in situations in which it is physically hazardous; 9) sedative use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by sedative; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of sedative to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of sedative; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for sedative. b. sedative (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000106",
+      "lbl" : "DSM_V-defined severe sedative use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of sedative use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) sedative is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control sedative use; 3) A great deal of time is spent in activities necessary to obtain sedative, use sedative, or recover from its effects; 4) Craving, or a strong desire or urge to use sedative; 5) Recurrent sedative use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued sedative use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of sedative; 7) Important social, occupational, or recreational activities are given up or reduced because of sedative use; 8) Recurrent sedative use in situations in which it is physically hazardous; 9) sedative use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by sedative; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of sedative to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of sedative; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for sedative. b. sedative (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000107",
+      "lbl" : "stimulant use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which stimulant is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000108",
+      "lbl" : "non-repetitive binge stimulant use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of stimulant use characterized by isolated or sporadic use of significant quantities of stimulant in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000109",
+      "lbl" : "recreational stimulant use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of stimulant use characterized by occasional limited use of stimulant, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000110",
+      "lbl" : "chronic stimulant use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of stimulant use in which the use of stimulant is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000111",
+      "lbl" : "stimulant use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic stimulant use where there is continued use of stimulant despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000112",
+      "lbl" : "stimulant abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of stimulant use in which the amounts or methods of use of stimulant are harmful or problematic to the individual or others (also called stimulant misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000113",
+      "lbl" : "DSM_IV-defined subsyndromic stimulant abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000114",
+      "lbl" : "DSM_IV-defined syndromic stimulant abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of stimulant use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent stimulant use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent stimulant use in situations in which it is physically hazardous; 3) Recurrent stimulant-related legal problems; 4) Continued stimulant use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of stimulant."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000115",
+      "lbl" : "stimulant dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of stimulant use in which the use of stimulant is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000116",
+      "lbl" : "DSM_IV-defined subsyndromic stimulant dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of stimulant use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of stimulant to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of stimulant; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for stimulant. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) stimulant is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control stimulant use; 5) A great deal of time is spent in activities necessary to obtain stimulant, use stimulant or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of stimulant use; 7) stimulant use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by stimulant."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000117",
+      "lbl" : "DSM_IV-defined syndromic stimulant dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of stimulant use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of stimulant to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of stimulant; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for stimulant. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) stimulant is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control stimulant use; 5) A great deal of time is spent in activities necessary to obtain stimulant, use stimulant or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of stimulant use; 7) stimulant use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by stimulant."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000118",
+      "lbl" : "DSM_V-defined mild stimulant use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of stimulant use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) stimulant is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control stimulant use; 3) A great deal of time is spent in activities necessary to obtain stimulant, use stimulant, or recover from its effects; 4) Craving, or a strong desire or urge to use stimulant; 5) Recurrent stimulant use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued stimulant use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of stimulant; 7) Important social, occupational, or recreational activities are given up or reduced because of stimulant use; 8) Recurrent stimulant use in situations in which it is physically hazardous; 9) stimulant use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by stimulant; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of stimulant to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of stimulant; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for stimulant. b. stimulant (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000119",
+      "lbl" : "DSM_V-defined moderate stimulant use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of stimulant use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) stimulant is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control stimulant use; 3) A great deal of time is spent in activities necessary to obtain stimulant, use stimulant, or recover from its effects; 4) Craving, or a strong desire or urge to use stimulant; 5) Recurrent stimulant use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued stimulant use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of stimulant; 7) Important social, occupational, or recreational activities are given up or reduced because of stimulant use; 8) Recurrent stimulant use in situations in which it is physically hazardous; 9) stimulant use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by stimulant; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of stimulant to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of stimulant; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for stimulant. b. stimulant (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000120",
+      "lbl" : "DSM_V-defined severe stimulant use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of stimulant use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) stimulant is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control stimulant use; 3) A great deal of time is spent in activities necessary to obtain stimulant, use stimulant, or recover from its effects; 4) Craving, or a strong desire or urge to use stimulant; 5) Recurrent stimulant use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued stimulant use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of stimulant; 7) Important social, occupational, or recreational activities are given up or reduced because of stimulant use; 8) Recurrent stimulant use in situations in which it is physically hazardous; 9) stimulant use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by stimulant; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of stimulant to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of stimulant; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for stimulant. b. stimulant (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000121",
+      "lbl" : "amphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which amphetamine is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000122",
+      "lbl" : "non-repetitive binge amphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of amphetamine use characterized by isolated or sporadic use of significant quantities of amphetamine in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000123",
+      "lbl" : "recreational amphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of amphetamine use characterized by occasional limited use of amphetamine, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000124",
+      "lbl" : "chronic amphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of amphetamine use in which the use of amphetamine is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000125",
+      "lbl" : "amphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic amphetamine use where there is continued use of amphetamine despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000126",
+      "lbl" : "amphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of amphetamine use in which the amounts or methods of use of amphetamine are harmful or problematic to the individual or others (also called amphetamine misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000127",
+      "lbl" : "DSM_IV-defined subsyndromic amphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000128",
+      "lbl" : "DSM_IV-defined syndromic amphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of amphetamine use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent amphetamine use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent amphetamine use in situations in which it is physically hazardous; 3) Recurrent amphetamine-related legal problems; 4) Continued amphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of amphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000129",
+      "lbl" : "amphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of amphetamine use in which the use of amphetamine is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000130",
+      "lbl" : "DSM_IV-defined subsyndromic amphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of amphetamine use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of amphetamine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of amphetamine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for amphetamine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) amphetamine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control amphetamine use; 5) A great deal of time is spent in activities necessary to obtain amphetamine, use amphetamine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of amphetamine use; 7) amphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by amphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000131",
+      "lbl" : "DSM_IV-defined syndromic amphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of amphetamine use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of amphetamine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of amphetamine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for amphetamine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) amphetamine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control amphetamine use; 5) A great deal of time is spent in activities necessary to obtain amphetamine, use amphetamine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of amphetamine use; 7) amphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by amphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000132",
+      "lbl" : "DSM_V-defined mild amphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of amphetamine use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) amphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control amphetamine use; 3) A great deal of time is spent in activities necessary to obtain amphetamine, use amphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use amphetamine; 5) Recurrent amphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued amphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of amphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of amphetamine use; 8) Recurrent amphetamine use in situations in which it is physically hazardous; 9) amphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by amphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of amphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of amphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for amphetamine. b. amphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000133",
+      "lbl" : "DSM_V-defined moderate amphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of amphetamine use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) amphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control amphetamine use; 3) A great deal of time is spent in activities necessary to obtain amphetamine, use amphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use amphetamine; 5) Recurrent amphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued amphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of amphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of amphetamine use; 8) Recurrent amphetamine use in situations in which it is physically hazardous; 9) amphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by amphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of amphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of amphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for amphetamine. b. amphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000134",
+      "lbl" : "DSM_V-defined severe amphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of amphetamine use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) amphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control amphetamine use; 3) A great deal of time is spent in activities necessary to obtain amphetamine, use amphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use amphetamine; 5) Recurrent amphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued amphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of amphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of amphetamine use; 8) Recurrent amphetamine use in situations in which it is physically hazardous; 9) amphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by amphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of amphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of amphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for amphetamine. b. amphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000135",
+      "lbl" : "methamphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which methamphetamine is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000136",
+      "lbl" : "non-repetitive binge methamphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of methamphetamine use characterized by isolated or sporadic use of significant quantities of methamphetamine in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000137",
+      "lbl" : "recreational methamphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of methamphetamine use characterized by occasional limited use of methamphetamine, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000138",
+      "lbl" : "chronic methamphetamine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of methamphetamine use in which the use of methamphetamine is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000139",
+      "lbl" : "methamphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic methamphetamine use where there is continued use of methamphetamine despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000140",
+      "lbl" : "methamphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of methamphetamine use in which the amounts or methods of use of methamphetamine are harmful or problematic to the individual or others (also called methamphetamine misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000141",
+      "lbl" : "DSM_IV-defined subsyndromic methamphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000142",
+      "lbl" : "DSM_IV-defined syndromic methamphetamine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of methamphetamine use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent methamphetamine use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent methamphetamine use in situations in which it is physically hazardous; 3) Recurrent methamphetamine-related legal problems; 4) Continued methamphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of methamphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000143",
+      "lbl" : "methamphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of methamphetamine use in which the use of methamphetamine is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000144",
+      "lbl" : "DSM_IV-defined subsyndromic methamphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of methamphetamine use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of methamphetamine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of methamphetamine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for methamphetamine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) methamphetamine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control methamphetamine use; 5) A great deal of time is spent in activities necessary to obtain methamphetamine, use methamphetamine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of methamphetamine use; 7) methamphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by methamphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000145",
+      "lbl" : "DSM_IV-defined syndromic methamphetamine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of methamphetamine use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of methamphetamine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of methamphetamine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for methamphetamine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) methamphetamine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control methamphetamine use; 5) A great deal of time is spent in activities necessary to obtain methamphetamine, use methamphetamine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of methamphetamine use; 7) methamphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by methamphetamine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000146",
+      "lbl" : "DSM_V-defined mild methamphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of methamphetamine use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) methamphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control methamphetamine use; 3) A great deal of time is spent in activities necessary to obtain methamphetamine, use methamphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use methamphetamine; 5) Recurrent methamphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued methamphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of methamphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of methamphetamine use; 8) Recurrent methamphetamine use in situations in which it is physically hazardous; 9) methamphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by methamphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of methamphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of methamphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for methamphetamine. b. methamphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000147",
+      "lbl" : "DSM_V-defined moderate methamphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of methamphetamine use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) methamphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control methamphetamine use; 3) A great deal of time is spent in activities necessary to obtain methamphetamine, use methamphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use methamphetamine; 5) Recurrent methamphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued methamphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of methamphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of methamphetamine use; 8) Recurrent methamphetamine use in situations in which it is physically hazardous; 9) methamphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by methamphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of methamphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of methamphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for methamphetamine. b. methamphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000148",
+      "lbl" : "DSM_V-defined severe methamphetamine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of methamphetamine use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) methamphetamine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control methamphetamine use; 3) A great deal of time is spent in activities necessary to obtain methamphetamine, use methamphetamine, or recover from its effects; 4) Craving, or a strong desire or urge to use methamphetamine; 5) Recurrent methamphetamine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued methamphetamine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of methamphetamine; 7) Important social, occupational, or recreational activities are given up or reduced because of methamphetamine use; 8) Recurrent methamphetamine use in situations in which it is physically hazardous; 9) methamphetamine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by methamphetamine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of methamphetamine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of methamphetamine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for methamphetamine. b. methamphetamine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000149",
+      "lbl" : "cocaine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which cocaine is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000150",
+      "lbl" : "non-repetitive binge cocaine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cocaine use characterized by isolated or sporadic use of significant quantities of cocaine in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000151",
+      "lbl" : "recreational cocaine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cocaine use characterized by occasional limited use of cocaine, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000152",
+      "lbl" : "chronic cocaine use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cocaine use in which the use of cocaine is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000153",
+      "lbl" : "cocaine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic cocaine use where there is continued use of cocaine despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000154",
+      "lbl" : "cocaine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cocaine use in which the amounts or methods of use of cocaine are harmful or problematic to the individual or others (also called cocaine misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000155",
+      "lbl" : "DSM_IV-defined subsyndromic cocaine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000156",
+      "lbl" : "DSM_IV-defined syndromic cocaine abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of cocaine use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent cocaine use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent cocaine use in situations in which it is physically hazardous; 3) Recurrent cocaine-related legal problems; 4) Continued cocaine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cocaine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000157",
+      "lbl" : "cocaine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of cocaine use in which the use of cocaine is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000158",
+      "lbl" : "DSM_IV-defined subsyndromic cocaine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of cocaine use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of cocaine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of cocaine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cocaine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) cocaine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control cocaine use; 5) A great deal of time is spent in activities necessary to obtain cocaine, use cocaine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of cocaine use; 7) cocaine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cocaine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000159",
+      "lbl" : "DSM_IV-defined syndromic cocaine dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of cocaine use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of cocaine to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of cocaine; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cocaine. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) cocaine is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control cocaine use; 5) A great deal of time is spent in activities necessary to obtain cocaine, use cocaine or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of cocaine use; 7) cocaine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cocaine."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000160",
+      "lbl" : "DSM_V-defined mild cocaine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cocaine use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) cocaine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cocaine use; 3) A great deal of time is spent in activities necessary to obtain cocaine, use cocaine, or recover from its effects; 4) Craving, or a strong desire or urge to use cocaine; 5) Recurrent cocaine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cocaine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cocaine; 7) Important social, occupational, or recreational activities are given up or reduced because of cocaine use; 8) Recurrent cocaine use in situations in which it is physically hazardous; 9) cocaine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cocaine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cocaine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cocaine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cocaine. b. cocaine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000161",
+      "lbl" : "DSM_V-defined moderate cocaine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cocaine use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) cocaine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cocaine use; 3) A great deal of time is spent in activities necessary to obtain cocaine, use cocaine, or recover from its effects; 4) Craving, or a strong desire or urge to use cocaine; 5) Recurrent cocaine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cocaine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cocaine; 7) Important social, occupational, or recreational activities are given up or reduced because of cocaine use; 8) Recurrent cocaine use in situations in which it is physically hazardous; 9) cocaine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cocaine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cocaine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cocaine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cocaine. b. cocaine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000162",
+      "lbl" : "DSM_V-defined severe cocaine use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of cocaine use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) cocaine is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control cocaine use; 3) A great deal of time is spent in activities necessary to obtain cocaine, use cocaine, or recover from its effects; 4) Craving, or a strong desire or urge to use cocaine; 5) Recurrent cocaine use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued cocaine use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of cocaine; 7) Important social, occupational, or recreational activities are given up or reduced because of cocaine use; 8) Recurrent cocaine use in situations in which it is physically hazardous; 9) cocaine use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by cocaine; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of cocaine to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of cocaine; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for cocaine. b. cocaine (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000163",
+      "lbl" : "recreational tobacco smoking",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000164",
+      "lbl" : "recreational vaping",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000165",
+      "lbl" : "non-repetitive binge tobacco smoking",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000166",
+      "lbl" : "non-repetitive binge vaping",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000167",
+      "lbl" : "chronic tobacco smoking",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000168",
+      "lbl" : "chronic vaping",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://foo#000169",
+      "lbl" : "heroin use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A substance use phenotype in which heroin is used. Use may be through inhalation, injection, ingestion or other means by which the substance may enter the body."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000170",
+      "lbl" : "non-repetitive binge heroin use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of heroin use characterized by isolated or sporadic use of significant quantities of heroin in a short time period."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000171",
+      "lbl" : "recreational heroin use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of heroin use characterized by occasional limited use of heroin, without adverse consequences or behavioral/physiologic symptoms of a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000172",
+      "lbl" : "chronic heroin use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of heroin use in which the use of heroin is frequent and persistent for a period of 3 months or greater; may or may not be accompanied by behavioral or physiologic symptoms necessary to define a substance use disorder."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000173",
+      "lbl" : "heroin use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of chronic heroin use where there is continued use of heroin despite harm or adverse consequence to self or others. This is defined by behavioral criteria and physiologic symptoms."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000174",
+      "lbl" : "heroin abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of heroin use in which the amounts or methods of use of heroin are harmful or problematic to the individual or others (also called heroin misuse)"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000175",
+      "lbl" : "DSM_IV-defined subsyndromic heroin abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000176",
+      "lbl" : "DSM_IV-defined syndromic heroin abuse",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of heroin use leading to clinically significant impairment or distress, as manifested by one (or more) of the following, occurring within a 12-month period: 1) Recurrent heroin use resulting in a failure to fulfill major role obligation at work, school, or home; 2) Recurrent heroin use in situations in which it is physically hazardous; 3) Recurrent heroin-related legal problems; 4) Continued heroin use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of heroin."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000177",
+      "lbl" : "heroin dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A type of heroin use in which the use of heroin is compulsive and repetitive and may result in tolerance to the effect of the drug and withdrawal symptoms when use is reduced or stopped."
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000178",
+      "lbl" : "DSM_IV-defined subsyndromic heroin dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A pattern of heroin use, leading to impairment or distress, as manifested by one to two of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of heroin to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of heroin; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for heroin. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) heroin is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control heroin use; 5) A great deal of time is spent in activities necessary to obtain heroin, use heroin or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of heroin use; 7) heroin use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by heroin."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000179",
+      "lbl" : "DSM_IV-defined syndromic heroin dependence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A maladaptive pattern of heroin use, leading to significant impairment or distress, as manifested by three (or more) of the following, occurring at any time in the same 12-month period: 1) Tolerance, as defined by either the following: a. Need for markedly increased amounts of heroin to achieve intoxication or desired effect. b. Markedly diminished effect with continued use of the same amount of heroin; 2) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for heroin. b. The same (or closely related) substance is taken to relieve or avoid withdrawal symptoms; 3) heroin is often taken in larger amounts or over a longer period than was intended; 4) There is persistent desire or unsuccessful efforts to cut down or control heroin use; 5) A great deal of time is spent in activities necessary to obtain heroin, use heroin or recover from its effects; 6) Important social, occupational, or recreational activities are given up or reduced because of heroin use; 7) heroin use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by heroin."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_IV"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000180",
+      "lbl" : "DSM_V-defined mild heroin use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of heroin use leading to clinically significant impairment or distress, as manifested by two of the following, occurring within a 12-month period: 1) heroin is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control heroin use; 3) A great deal of time is spent in activities necessary to obtain heroin, use heroin, or recover from its effects; 4) Craving, or a strong desire or urge to use heroin; 5) Recurrent heroin use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued heroin use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of heroin; 7) Important social, occupational, or recreational activities are given up or reduced because of heroin use; 8) Recurrent heroin use in situations in which it is physically hazardous; 9) heroin use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by heroin; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of heroin to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of heroin; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for heroin. b. heroin (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000181",
+      "lbl" : "DSM_V-defined moderate heroin use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of heroin use leading to clinically significant impairment or distress, as manifested by 4-5 of the following, occurring within a 12-month period: 1) heroin is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control heroin use; 3) A great deal of time is spent in activities necessary to obtain heroin, use heroin, or recover from its effects; 4) Craving, or a strong desire or urge to use heroin; 5) Recurrent heroin use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued heroin use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of heroin; 7) Important social, occupational, or recreational activities are given up or reduced because of heroin use; 8) Recurrent heroin use in situations in which it is physically hazardous; 9) heroin use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by heroin; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of heroin to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of heroin; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for heroin. b. heroin (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
+      "id" : "http://foo#000182",
+      "lbl" : "DSM_V-defined severe heroin use disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A problematic pattern of heroin use leading to clinically significant impairment or distress, as manifested by six or more of the following, occurring within a 12-month period: 1) heroin is often taken in larger amounts or over a longer period than was intended; 2) There is a persistent desire or unsuccessful efforts to cut down or control heroin use; 3) A great deal of time is spent in activities necessary to obtain heroin, use heroin, or recover from its effects; 4) Craving, or a strong desire or urge to use heroin; 5) Recurrent heroin use resulting in a failure to fulfill major role obligations at work, school, or home; 6) Continued heroin use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of heroin; 7) Important social, occupational, or recreational activities are given up or reduced because of heroin use; 8) Recurrent heroin use in situations in which it is physically hazardous; 9) heroin use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by heroin; 10) Tolerance, as defined by either of the following:a. A need for markedly increased amounts of heroin to achieve intoxication or desired effect b. A markedly diminished effect with continued use of the same amount of heroin; 11) Withdrawal, as manifested by either of the following: a. The characteristic withdrawal syndrome for heroin. b. heroin (or a closely related substance) is taken to relieve or avoid withdrawal symptoms."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "DSM_V"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SUDO_0000000",
       "lbl" : "root node",
       "type" : "CLASS"
@@ -40,6 +2040,875 @@
       "lbl" : "title",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://foo#000002",
+      "pred" : "is_a",
+      "obj" : "http://foo#000001"
+    }, {
+      "sub" : "http://foo#000003",
+      "pred" : "is_a",
+      "obj" : "http://foo#000001"
+    }, {
+      "sub" : "http://foo#000004",
+      "pred" : "is_a",
+      "obj" : "http://foo#000003"
+    }, {
+      "sub" : "http://foo#000005",
+      "pred" : "is_a",
+      "obj" : "http://foo#000001"
+    }, {
+      "sub" : "http://foo#000006",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000007",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000008",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000009",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000010",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000010",
+      "pred" : "is_a",
+      "obj" : "http://foo#000009"
+    }, {
+      "sub" : "http://foo#000011",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000011",
+      "pred" : "is_a",
+      "obj" : "http://foo#000009"
+    }, {
+      "sub" : "http://foo#000012",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000012",
+      "pred" : "is_a",
+      "obj" : "http://foo#000009"
+    }, {
+      "sub" : "http://foo#000013",
+      "pred" : "is_a",
+      "obj" : "http://foo#000012"
+    }, {
+      "sub" : "http://foo#000014",
+      "pred" : "is_a",
+      "obj" : "http://foo#000013"
+    }, {
+      "sub" : "http://foo#000015",
+      "pred" : "is_a",
+      "obj" : "http://foo#000014"
+    }, {
+      "sub" : "http://foo#000016",
+      "pred" : "is_a",
+      "obj" : "http://foo#000014"
+    }, {
+      "sub" : "http://foo#000017",
+      "pred" : "is_a",
+      "obj" : "http://foo#000013"
+    }, {
+      "sub" : "http://foo#000018",
+      "pred" : "is_a",
+      "obj" : "http://foo#000017"
+    }, {
+      "sub" : "http://foo#000019",
+      "pred" : "is_a",
+      "obj" : "http://foo#000017"
+    }, {
+      "sub" : "http://foo#000020",
+      "pred" : "is_a",
+      "obj" : "http://foo#000013"
+    }, {
+      "sub" : "http://foo#000021",
+      "pred" : "is_a",
+      "obj" : "http://foo#000013"
+    }, {
+      "sub" : "http://foo#000022",
+      "pred" : "is_a",
+      "obj" : "http://foo#000013"
+    }, {
+      "sub" : "http://foo#000023",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000024",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000024",
+      "pred" : "is_a",
+      "obj" : "http://foo#000023"
+    }, {
+      "sub" : "http://foo#000025",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000025",
+      "pred" : "is_a",
+      "obj" : "http://foo#000023"
+    }, {
+      "sub" : "http://foo#000026",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000026",
+      "pred" : "is_a",
+      "obj" : "http://foo#000023"
+    }, {
+      "sub" : "http://foo#000027",
+      "pred" : "is_a",
+      "obj" : "http://foo#000026"
+    }, {
+      "sub" : "http://foo#000028",
+      "pred" : "is_a",
+      "obj" : "http://foo#000027"
+    }, {
+      "sub" : "http://foo#000029",
+      "pred" : "is_a",
+      "obj" : "http://foo#000028"
+    }, {
+      "sub" : "http://foo#000030",
+      "pred" : "is_a",
+      "obj" : "http://foo#000028"
+    }, {
+      "sub" : "http://foo#000031",
+      "pred" : "is_a",
+      "obj" : "http://foo#000027"
+    }, {
+      "sub" : "http://foo#000032",
+      "pred" : "is_a",
+      "obj" : "http://foo#000031"
+    }, {
+      "sub" : "http://foo#000033",
+      "pred" : "is_a",
+      "obj" : "http://foo#000031"
+    }, {
+      "sub" : "http://foo#000034",
+      "pred" : "is_a",
+      "obj" : "http://foo#000027"
+    }, {
+      "sub" : "http://foo#000035",
+      "pred" : "is_a",
+      "obj" : "http://foo#000027"
+    }, {
+      "sub" : "http://foo#000036",
+      "pred" : "is_a",
+      "obj" : "http://foo#000027"
+    }, {
+      "sub" : "http://foo#000037",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000038",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000038",
+      "pred" : "is_a",
+      "obj" : "http://foo#000037"
+    }, {
+      "sub" : "http://foo#000039",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000039",
+      "pred" : "is_a",
+      "obj" : "http://foo#000037"
+    }, {
+      "sub" : "http://foo#000040",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000040",
+      "pred" : "is_a",
+      "obj" : "http://foo#000037"
+    }, {
+      "sub" : "http://foo#000041",
+      "pred" : "is_a",
+      "obj" : "http://foo#000040"
+    }, {
+      "sub" : "http://foo#000042",
+      "pred" : "is_a",
+      "obj" : "http://foo#000041"
+    }, {
+      "sub" : "http://foo#000043",
+      "pred" : "is_a",
+      "obj" : "http://foo#000042"
+    }, {
+      "sub" : "http://foo#000044",
+      "pred" : "is_a",
+      "obj" : "http://foo#000042"
+    }, {
+      "sub" : "http://foo#000045",
+      "pred" : "is_a",
+      "obj" : "http://foo#000041"
+    }, {
+      "sub" : "http://foo#000046",
+      "pred" : "is_a",
+      "obj" : "http://foo#000045"
+    }, {
+      "sub" : "http://foo#000047",
+      "pred" : "is_a",
+      "obj" : "http://foo#000045"
+    }, {
+      "sub" : "http://foo#000048",
+      "pred" : "is_a",
+      "obj" : "http://foo#000041"
+    }, {
+      "sub" : "http://foo#000049",
+      "pred" : "is_a",
+      "obj" : "http://foo#000041"
+    }, {
+      "sub" : "http://foo#000050",
+      "pred" : "is_a",
+      "obj" : "http://foo#000041"
+    }, {
+      "sub" : "http://foo#000051",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000052",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000052",
+      "pred" : "is_a",
+      "obj" : "http://foo#000051"
+    }, {
+      "sub" : "http://foo#000053",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000053",
+      "pred" : "is_a",
+      "obj" : "http://foo#000051"
+    }, {
+      "sub" : "http://foo#000054",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000054",
+      "pred" : "is_a",
+      "obj" : "http://foo#000051"
+    }, {
+      "sub" : "http://foo#000055",
+      "pred" : "is_a",
+      "obj" : "http://foo#000054"
+    }, {
+      "sub" : "http://foo#000056",
+      "pred" : "is_a",
+      "obj" : "http://foo#000055"
+    }, {
+      "sub" : "http://foo#000057",
+      "pred" : "is_a",
+      "obj" : "http://foo#000056"
+    }, {
+      "sub" : "http://foo#000058",
+      "pred" : "is_a",
+      "obj" : "http://foo#000056"
+    }, {
+      "sub" : "http://foo#000059",
+      "pred" : "is_a",
+      "obj" : "http://foo#000055"
+    }, {
+      "sub" : "http://foo#000060",
+      "pred" : "is_a",
+      "obj" : "http://foo#000059"
+    }, {
+      "sub" : "http://foo#000061",
+      "pred" : "is_a",
+      "obj" : "http://foo#000059"
+    }, {
+      "sub" : "http://foo#000062",
+      "pred" : "is_a",
+      "obj" : "http://foo#000055"
+    }, {
+      "sub" : "http://foo#000063",
+      "pred" : "is_a",
+      "obj" : "http://foo#000055"
+    }, {
+      "sub" : "http://foo#000064",
+      "pred" : "is_a",
+      "obj" : "http://foo#000055"
+    }, {
+      "sub" : "http://foo#000065",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000066",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000066",
+      "pred" : "is_a",
+      "obj" : "http://foo#000065"
+    }, {
+      "sub" : "http://foo#000067",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000067",
+      "pred" : "is_a",
+      "obj" : "http://foo#000065"
+    }, {
+      "sub" : "http://foo#000068",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000068",
+      "pred" : "is_a",
+      "obj" : "http://foo#000065"
+    }, {
+      "sub" : "http://foo#000069",
+      "pred" : "is_a",
+      "obj" : "http://foo#000068"
+    }, {
+      "sub" : "http://foo#000070",
+      "pred" : "is_a",
+      "obj" : "http://foo#000069"
+    }, {
+      "sub" : "http://foo#000071",
+      "pred" : "is_a",
+      "obj" : "http://foo#000070"
+    }, {
+      "sub" : "http://foo#000072",
+      "pred" : "is_a",
+      "obj" : "http://foo#000070"
+    }, {
+      "sub" : "http://foo#000073",
+      "pred" : "is_a",
+      "obj" : "http://foo#000069"
+    }, {
+      "sub" : "http://foo#000074",
+      "pred" : "is_a",
+      "obj" : "http://foo#000073"
+    }, {
+      "sub" : "http://foo#000075",
+      "pred" : "is_a",
+      "obj" : "http://foo#000073"
+    }, {
+      "sub" : "http://foo#000076",
+      "pred" : "is_a",
+      "obj" : "http://foo#000069"
+    }, {
+      "sub" : "http://foo#000077",
+      "pred" : "is_a",
+      "obj" : "http://foo#000069"
+    }, {
+      "sub" : "http://foo#000078",
+      "pred" : "is_a",
+      "obj" : "http://foo#000069"
+    }, {
+      "sub" : "http://foo#000079",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000080",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000080",
+      "pred" : "is_a",
+      "obj" : "http://foo#000079"
+    }, {
+      "sub" : "http://foo#000081",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000081",
+      "pred" : "is_a",
+      "obj" : "http://foo#000079"
+    }, {
+      "sub" : "http://foo#000082",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000082",
+      "pred" : "is_a",
+      "obj" : "http://foo#000079"
+    }, {
+      "sub" : "http://foo#000083",
+      "pred" : "is_a",
+      "obj" : "http://foo#000082"
+    }, {
+      "sub" : "http://foo#000084",
+      "pred" : "is_a",
+      "obj" : "http://foo#000083"
+    }, {
+      "sub" : "http://foo#000085",
+      "pred" : "is_a",
+      "obj" : "http://foo#000084"
+    }, {
+      "sub" : "http://foo#000086",
+      "pred" : "is_a",
+      "obj" : "http://foo#000084"
+    }, {
+      "sub" : "http://foo#000087",
+      "pred" : "is_a",
+      "obj" : "http://foo#000083"
+    }, {
+      "sub" : "http://foo#000088",
+      "pred" : "is_a",
+      "obj" : "http://foo#000087"
+    }, {
+      "sub" : "http://foo#000089",
+      "pred" : "is_a",
+      "obj" : "http://foo#000087"
+    }, {
+      "sub" : "http://foo#000090",
+      "pred" : "is_a",
+      "obj" : "http://foo#000083"
+    }, {
+      "sub" : "http://foo#000091",
+      "pred" : "is_a",
+      "obj" : "http://foo#000083"
+    }, {
+      "sub" : "http://foo#000092",
+      "pred" : "is_a",
+      "obj" : "http://foo#000083"
+    }, {
+      "sub" : "http://foo#000093",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000094",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000094",
+      "pred" : "is_a",
+      "obj" : "http://foo#000093"
+    }, {
+      "sub" : "http://foo#000095",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000095",
+      "pred" : "is_a",
+      "obj" : "http://foo#000093"
+    }, {
+      "sub" : "http://foo#000096",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000096",
+      "pred" : "is_a",
+      "obj" : "http://foo#000093"
+    }, {
+      "sub" : "http://foo#000097",
+      "pred" : "is_a",
+      "obj" : "http://foo#000096"
+    }, {
+      "sub" : "http://foo#000098",
+      "pred" : "is_a",
+      "obj" : "http://foo#000097"
+    }, {
+      "sub" : "http://foo#000099",
+      "pred" : "is_a",
+      "obj" : "http://foo#000098"
+    }, {
+      "sub" : "http://foo#000100",
+      "pred" : "is_a",
+      "obj" : "http://foo#000098"
+    }, {
+      "sub" : "http://foo#000101",
+      "pred" : "is_a",
+      "obj" : "http://foo#000097"
+    }, {
+      "sub" : "http://foo#000102",
+      "pred" : "is_a",
+      "obj" : "http://foo#000101"
+    }, {
+      "sub" : "http://foo#000103",
+      "pred" : "is_a",
+      "obj" : "http://foo#000101"
+    }, {
+      "sub" : "http://foo#000104",
+      "pred" : "is_a",
+      "obj" : "http://foo#000097"
+    }, {
+      "sub" : "http://foo#000105",
+      "pred" : "is_a",
+      "obj" : "http://foo#000097"
+    }, {
+      "sub" : "http://foo#000106",
+      "pred" : "is_a",
+      "obj" : "http://foo#000097"
+    }, {
+      "sub" : "http://foo#000107",
+      "pred" : "is_a",
+      "obj" : "http://foo#000002"
+    }, {
+      "sub" : "http://foo#000108",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000108",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000109",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000109",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000110",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000110",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000111",
+      "pred" : "is_a",
+      "obj" : "http://foo#000110"
+    }, {
+      "sub" : "http://foo#000112",
+      "pred" : "is_a",
+      "obj" : "http://foo#000111"
+    }, {
+      "sub" : "http://foo#000113",
+      "pred" : "is_a",
+      "obj" : "http://foo#000112"
+    }, {
+      "sub" : "http://foo#000114",
+      "pred" : "is_a",
+      "obj" : "http://foo#000112"
+    }, {
+      "sub" : "http://foo#000115",
+      "pred" : "is_a",
+      "obj" : "http://foo#000111"
+    }, {
+      "sub" : "http://foo#000116",
+      "pred" : "is_a",
+      "obj" : "http://foo#000115"
+    }, {
+      "sub" : "http://foo#000117",
+      "pred" : "is_a",
+      "obj" : "http://foo#000115"
+    }, {
+      "sub" : "http://foo#000118",
+      "pred" : "is_a",
+      "obj" : "http://foo#000111"
+    }, {
+      "sub" : "http://foo#000119",
+      "pred" : "is_a",
+      "obj" : "http://foo#000111"
+    }, {
+      "sub" : "http://foo#000120",
+      "pred" : "is_a",
+      "obj" : "http://foo#000111"
+    }, {
+      "sub" : "http://foo#000121",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000122",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000122",
+      "pred" : "is_a",
+      "obj" : "http://foo#000121"
+    }, {
+      "sub" : "http://foo#000123",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000123",
+      "pred" : "is_a",
+      "obj" : "http://foo#000121"
+    }, {
+      "sub" : "http://foo#000124",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000124",
+      "pred" : "is_a",
+      "obj" : "http://foo#000121"
+    }, {
+      "sub" : "http://foo#000125",
+      "pred" : "is_a",
+      "obj" : "http://foo#000124"
+    }, {
+      "sub" : "http://foo#000126",
+      "pred" : "is_a",
+      "obj" : "http://foo#000125"
+    }, {
+      "sub" : "http://foo#000127",
+      "pred" : "is_a",
+      "obj" : "http://foo#000126"
+    }, {
+      "sub" : "http://foo#000128",
+      "pred" : "is_a",
+      "obj" : "http://foo#000126"
+    }, {
+      "sub" : "http://foo#000129",
+      "pred" : "is_a",
+      "obj" : "http://foo#000125"
+    }, {
+      "sub" : "http://foo#000130",
+      "pred" : "is_a",
+      "obj" : "http://foo#000129"
+    }, {
+      "sub" : "http://foo#000131",
+      "pred" : "is_a",
+      "obj" : "http://foo#000129"
+    }, {
+      "sub" : "http://foo#000132",
+      "pred" : "is_a",
+      "obj" : "http://foo#000125"
+    }, {
+      "sub" : "http://foo#000133",
+      "pred" : "is_a",
+      "obj" : "http://foo#000125"
+    }, {
+      "sub" : "http://foo#000134",
+      "pred" : "is_a",
+      "obj" : "http://foo#000125"
+    }, {
+      "sub" : "http://foo#000135",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000136",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000136",
+      "pred" : "is_a",
+      "obj" : "http://foo#000135"
+    }, {
+      "sub" : "http://foo#000137",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000137",
+      "pred" : "is_a",
+      "obj" : "http://foo#000135"
+    }, {
+      "sub" : "http://foo#000138",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000138",
+      "pred" : "is_a",
+      "obj" : "http://foo#000135"
+    }, {
+      "sub" : "http://foo#000139",
+      "pred" : "is_a",
+      "obj" : "http://foo#000138"
+    }, {
+      "sub" : "http://foo#000140",
+      "pred" : "is_a",
+      "obj" : "http://foo#000139"
+    }, {
+      "sub" : "http://foo#000141",
+      "pred" : "is_a",
+      "obj" : "http://foo#000140"
+    }, {
+      "sub" : "http://foo#000142",
+      "pred" : "is_a",
+      "obj" : "http://foo#000140"
+    }, {
+      "sub" : "http://foo#000143",
+      "pred" : "is_a",
+      "obj" : "http://foo#000139"
+    }, {
+      "sub" : "http://foo#000144",
+      "pred" : "is_a",
+      "obj" : "http://foo#000143"
+    }, {
+      "sub" : "http://foo#000145",
+      "pred" : "is_a",
+      "obj" : "http://foo#000143"
+    }, {
+      "sub" : "http://foo#000146",
+      "pred" : "is_a",
+      "obj" : "http://foo#000139"
+    }, {
+      "sub" : "http://foo#000147",
+      "pred" : "is_a",
+      "obj" : "http://foo#000139"
+    }, {
+      "sub" : "http://foo#000148",
+      "pred" : "is_a",
+      "obj" : "http://foo#000139"
+    }, {
+      "sub" : "http://foo#000149",
+      "pred" : "is_a",
+      "obj" : "http://foo#000107"
+    }, {
+      "sub" : "http://foo#000150",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000150",
+      "pred" : "is_a",
+      "obj" : "http://foo#000149"
+    }, {
+      "sub" : "http://foo#000151",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000151",
+      "pred" : "is_a",
+      "obj" : "http://foo#000149"
+    }, {
+      "sub" : "http://foo#000152",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000152",
+      "pred" : "is_a",
+      "obj" : "http://foo#000149"
+    }, {
+      "sub" : "http://foo#000153",
+      "pred" : "is_a",
+      "obj" : "http://foo#000152"
+    }, {
+      "sub" : "http://foo#000154",
+      "pred" : "is_a",
+      "obj" : "http://foo#000153"
+    }, {
+      "sub" : "http://foo#000155",
+      "pred" : "is_a",
+      "obj" : "http://foo#000154"
+    }, {
+      "sub" : "http://foo#000156",
+      "pred" : "is_a",
+      "obj" : "http://foo#000154"
+    }, {
+      "sub" : "http://foo#000157",
+      "pred" : "is_a",
+      "obj" : "http://foo#000153"
+    }, {
+      "sub" : "http://foo#000158",
+      "pred" : "is_a",
+      "obj" : "http://foo#000157"
+    }, {
+      "sub" : "http://foo#000159",
+      "pred" : "is_a",
+      "obj" : "http://foo#000157"
+    }, {
+      "sub" : "http://foo#000160",
+      "pred" : "is_a",
+      "obj" : "http://foo#000153"
+    }, {
+      "sub" : "http://foo#000161",
+      "pred" : "is_a",
+      "obj" : "http://foo#000153"
+    }, {
+      "sub" : "http://foo#000162",
+      "pred" : "is_a",
+      "obj" : "http://foo#000153"
+    }, {
+      "sub" : "http://foo#000163",
+      "pred" : "is_a",
+      "obj" : "http://foo#000053"
+    }, {
+      "sub" : "http://foo#000164",
+      "pred" : "is_a",
+      "obj" : "http://foo#000053"
+    }, {
+      "sub" : "http://foo#000165",
+      "pred" : "is_a",
+      "obj" : "http://foo#000052"
+    }, {
+      "sub" : "http://foo#000166",
+      "pred" : "is_a",
+      "obj" : "http://foo#000052"
+    }, {
+      "sub" : "http://foo#000167",
+      "pred" : "is_a",
+      "obj" : "http://foo#000054"
+    }, {
+      "sub" : "http://foo#000168",
+      "pred" : "is_a",
+      "obj" : "http://foo#000054"
+    }, {
+      "sub" : "http://foo#000169",
+      "pred" : "is_a",
+      "obj" : "http://foo#000065"
+    }, {
+      "sub" : "http://foo#000170",
+      "pred" : "is_a",
+      "obj" : "http://foo#000006"
+    }, {
+      "sub" : "http://foo#000170",
+      "pred" : "is_a",
+      "obj" : "http://foo#000169"
+    }, {
+      "sub" : "http://foo#000171",
+      "pred" : "is_a",
+      "obj" : "http://foo#000007"
+    }, {
+      "sub" : "http://foo#000171",
+      "pred" : "is_a",
+      "obj" : "http://foo#000169"
+    }, {
+      "sub" : "http://foo#000172",
+      "pred" : "is_a",
+      "obj" : "http://foo#000008"
+    }, {
+      "sub" : "http://foo#000172",
+      "pred" : "is_a",
+      "obj" : "http://foo#000169"
+    }, {
+      "sub" : "http://foo#000173",
+      "pred" : "is_a",
+      "obj" : "http://foo#000172"
+    }, {
+      "sub" : "http://foo#000174",
+      "pred" : "is_a",
+      "obj" : "http://foo#000173"
+    }, {
+      "sub" : "http://foo#000175",
+      "pred" : "is_a",
+      "obj" : "http://foo#000174"
+    }, {
+      "sub" : "http://foo#000176",
+      "pred" : "is_a",
+      "obj" : "http://foo#000174"
+    }, {
+      "sub" : "http://foo#000177",
+      "pred" : "is_a",
+      "obj" : "http://foo#000173"
+    }, {
+      "sub" : "http://foo#000178",
+      "pred" : "is_a",
+      "obj" : "http://foo#000177"
+    }, {
+      "sub" : "http://foo#000179",
+      "pred" : "is_a",
+      "obj" : "http://foo#000177"
+    }, {
+      "sub" : "http://foo#000180",
+      "pred" : "is_a",
+      "obj" : "http://foo#000173"
+    }, {
+      "sub" : "http://foo#000181",
+      "pred" : "is_a",
+      "obj" : "http://foo#000173"
+    }, {
+      "sub" : "http://foo#000182",
+      "pred" : "is_a",
+      "obj" : "http://foo#000173"
     } ]
   } ]
 }

@@ -22,6 +22,10 @@
       "lbl" : "root node",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.org/dc/elements/1.1/source",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://purl.org/dc/terms/description",
       "lbl" : "description",
       "type" : "PROPERTY",

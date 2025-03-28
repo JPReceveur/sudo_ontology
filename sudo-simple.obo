@@ -1,5 +1,6 @@
 format-version: 1.2
 data-version: sudo/releases/2025-03-28/sudo-simple.owl
+idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: sudo/sudo-simple
 property_value: owl:versionInfo "2025-03-28" xsd:string
