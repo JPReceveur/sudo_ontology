@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: sudo/releases/2025-03-28/sudo-simple.owl
+idspace: terms http://purl.org/dc/terms/ 
+ontology: sudo/sudo-simple
+property_value: owl:versionInfo "2025-03-28" xsd:string
+property_value: terms:description "None" xsd:string
+property_value: terms:license https://creativecommons.org/licenses/unspecified
+property_value: terms:title "Substance Use Diagnosis Ontology" xsd:string
+
+[Term]
+id: SUDO:0000000
+name: root node
+
