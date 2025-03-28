@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/sudo
+
+idspace: SUDO
+base_url: /obo/sudo
+
+products:
+- sudo.owl: https://raw.githubusercontent.com/JPReceveur/sudo_ontology/main/sudo.owl
+- sudo.obo: https://raw.githubusercontent.com/JPReceveur/sudo_ontology/main/sudo.obo
+
+term_browser: ontobee
+example_terms:
+- SUDO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/JPReceveur/sudo_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/JPReceveur/sudo_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/SUDO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/JPReceveur/sudo_ontology/main/
+
